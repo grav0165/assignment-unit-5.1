@@ -26,7 +26,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 let fullName;
+
 fullName = me.firstName + ' ' + me.lastName;
+
 console.log(fullName);
 
 
@@ -35,8 +37,9 @@ console.log(fullName);
   - Console.log your last favorite food 
 */
 
-console.log(me.favThreeFoods[0]);
-console.log(me.favThreeFoods[2]);
+console.log(me.favThreeFoods[0]); // first food
+
+console.log(me.favThreeFoods[2]); // last food
 
 
 /* 4. Change a property of an existing object.
@@ -48,7 +51,9 @@ console.log(me.favThreeFoods[2]);
 */
 
 console.log('The total number of pairs of shoes I have is:', me.shoeCount);
-me.shoeCount += 1;
+
+me.shoeCount += 1; // adding to number of shoes
+
 console.log('Actually, I just bought a pair of shoes. Now the total number of shoes I have is:', me.shoeCount);
 
 
@@ -60,7 +65,9 @@ console.log('Actually, I just bought a pair of shoes. Now the total number of sh
 */
 
 me.favoritePlant = 'Pilea';
+
 console.log('My favorite plant is:', me.favoritePlant)
 
 me.favoriteColor = 'green';
+
 console.log('My favorite color is:', me.favoriteColor);
